@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo yum install -y nginx
+sudo service httpd start
+sudo service httpd enable
+sudo echo "<html><head>Hello</head><body><b>HelloHello</b></body>" > /usr/share/nginx/html/index.html
